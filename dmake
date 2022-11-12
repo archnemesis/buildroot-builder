@@ -6,4 +6,4 @@ docker run \
   --tty \
   --volume "${PWD}:/build" \
   --workdir /build \
-  --entrypoint /build/build.sh buildroot-builder
+  --entrypoint /build/build.sh buildroot-builder $@
