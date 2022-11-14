@@ -1,6 +1,8 @@
 Source: buildroot-sdk
 Maintainer: Robin Gingras <robin@robingingras.com>
+
 Package: buildroot-sdk
+Architecture: amd64
 Depends: ${misc:Depends},
   build-essential,
   file,
