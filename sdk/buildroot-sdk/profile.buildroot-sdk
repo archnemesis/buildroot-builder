@@ -1,0 +1,5 @@
+#
+# /etc/profile.buildroot-sdk
+#
+
+. /opt/buildroot-sdk/output/host/environment-setup

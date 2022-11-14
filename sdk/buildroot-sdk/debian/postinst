@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/opt/buildroot-sdk/output/host/relocate-sdk.sh

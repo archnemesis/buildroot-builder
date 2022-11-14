@@ -1,0 +1,12 @@
+buildroot-sdk-version /usr/bin
+profile.buildroot-sdk /etc
+sdk-info /opt/buildroot-sdk
+
+../../buildroot/output/host /opt/buildroot-sdk/output
+../../buildroot/output/images/bcm2711-rpi-4-b.dtb /opt/buildroot-sdk/output/images
+../../buildroot/output/images/boot.vfat /opt/buildroot-sdk/output/images
+../../buildroot/output/images/rootfs.ext2 /opt/buildroot-sdk/output/images
+../../buildroot/output/images/rootfs.ext4 /opt/buildroot-sdk/output/images
+../../buildroot/output/images/sdcard.img /opt/buildroot-sdk/output/images
+../../buildroot/output/images/zImage /opt/buildroot-sdk/output/images
+../../buildroot/output/images/rpi-firmware /opt/buildroot-sdk/output/images

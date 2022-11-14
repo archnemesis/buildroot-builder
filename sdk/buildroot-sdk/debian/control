@@ -1,0 +1,16 @@
+Source: buildroot-sdk
+Maintainer: Robin Gingras <robin@robingingras.com>
+Package: buildroot-sdk
+Depends: ${misc:Depends},
+  build-essential,
+  file,
+  cpio,
+  curl,
+  git,
+  less,
+  make,
+  vim,
+  zip
+Description: Buildroot SDK for Raspberry Pi 4 Example
+  This package contains the cross-compiling tool chain and build artifacts
+  for the Raspberry Pi 4 Example OS.
